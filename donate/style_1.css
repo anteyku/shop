@@ -1,0 +1,512 @@
+body{
+	background-color: #e5e9e9;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+a{
+	text-decoration: none;
+	width: auto;
+	height: auto;
+	color: white;
+}
+a:hover{
+	color: black;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+        /*Блок хедер*/
+		
+		
+.block_center{
+}	
+
+.block_glav_for_header{
+	width: 100%;
+	height: 14vw;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}	
+
+
+.block_for_header{
+	width: 90%;
+	height: 11vw;
+	border-color: white;
+	box-sizing: border-box;
+	padding: 1%;
+	display: flex;
+}
+
+
+
+.img_for_header_ava{
+	width: 8vw;
+	height: 8vw;
+	border-style: solid;
+	border-color: white;
+	border-radius: 50%;
+	border-width: 0.2vw;
+	overflow: hidden;
+	
+}
+
+.img_icon_for_header{
+	width: 100%;
+	height: auto;
+}
+
+.text_for_header_icon_logo{
+	width: 10%;
+	height: 3vw;
+	border-color: white;
+	box-sizing: border-box;
+	position: relative;
+	top: 60%;
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	font-size: 1.6vw;
+	line-height: 3vw;
+}
+
+.button_for_header{
+	width: 70%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	margin-left: auto;
+	display: flex;
+}
+
+.button_in_for_header{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.button_header{
+	width: auto;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-width: 0.2vw;
+	border-bottom-width: 0.6vw;
+	border-radius: 2vw;
+	font-family: 'Poiret One', cursive;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	font-size: 2.2vw;
+	line-height: 3.5vw;
+	padding-left: 2%;
+	padding-right: 2%;
+	transition-duration: 400ms;
+	transition-timing-function: ease;
+	
+	
+}
+
+.button_header:hover{
+	background-color: white;
+	color: black;
+	border-bottom-width: 0.2vw;
+	transform: translateY(0.4vw);
+}
+
+
+.button_in_for_header .button_header:nth-child(2){
+	background-color: white;
+	color: black;
+	border-bottom-width: 0.2vw;
+}
+
+	/*Блок с донат услугами*/
+.block_donate{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	padding-top: 4%;
+}
+
+.block_donate_for_center{
+	width: 100%;
+	height: 45vw;
+	border-color: black;
+	box-sizing: border-box;
+	display: block;
+	margin-top: 5%;
+}
+
+.line_for_donate{
+	width: 90%;
+	height: 18vw;
+	border-color: blue;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+
+.block_donate_for_center .line_for_donate:nth-child(2){
+	margin-top: 3%;
+}
+
+.domination_block{
+	width: 23%;
+	height: 17.5vw;
+	border-color: red;
+	box-sizing: border-box;
+	box-shadow: 0 0 24px 0 rgba(0,0,0,0.12);
+	transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.domination_block:hover{
+	box-shadow: 
+	rgba(0, 0, 0, 0.16) 0 3px 10px,
+	rgba(0, 0, 0, 0.23) 0 3px 10px;
+}
+
+.top_line_for_price_discount{
+	width: 100%;
+	height: 4vw;
+	border-color: orange;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+
+.left_mini_block_price{
+	width: 30%;
+	height: 3vw;
+	border-color: black;
+	box-sizing: border-box;
+	font-family: 'Poiret One', cursive;
+	color: #FF9800;
+	text-align: center;
+	line-height: 2.4vw;
+	font-weight: bold;
+	line-height: 1.1vw;
+	margin-top: 3%;
+	
+}
+
+.rub{
+	color: black;
+}
+
+.right_mini_block_discount{
+	width: 30%;
+	height: 3.4vw;
+	border-color: black;
+	box-sizing: border-box;
+	background-color: #FDD835;
+	color: black;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	text-align: center;
+	line-height: 3vw;
+	font-size: 1.6vw;
+}
+
+.image_for_picture_donate{
+	width: 50%;
+	height: 9.5vw;
+	border-color: black;
+	box-sizing: border-box;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.full_size_img{
+	width: 100%;
+	height: auto;
+}
+
+.bottom_text_for_domination{
+	width: 100%;
+	height: 4vw;
+	border-color: black;
+	box-sizing: border-box;
+	color: black;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 1.5vw;
+	line-height: 3.3vw;
+}
+
+  /*Подвал сайта*/
+
+
+.block_footer{
+	width: 100%;
+	height: 23vw;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+
+.center_block_for_footer{
+	width: 100%;
+	height: auto;
+	border-color: red;
+	box-sizing: border-box;
+	
+}
+
+.block_footer_end{
+	width: 50%;
+	height: 12vw;
+	border-color: blue;
+	box-sizing: border-box;
+	margin: 0 auto;
+	display: flex;
+}
+
+.img_for_footer_picture{
+	width: 23.5%;
+	height: 11.5vw;
+	background-color: black;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.right_block_for_picture_footer{
+	width: 75%;
+	height: 100%;
+	border-color: brown;
+	box-sizing:border-box;
+	margin-left: 1%;
+}
+
+.top_text_for_block_footer{
+	width: 100%;
+	height: 50%;
+	border-color: red;
+	box-sizing: border-box;
+	color: #b0aeae;
+	font-family: 'Poiret One', cursive;
+	font-size: 2.5vw;
+	line-height: 7vw;
+}
+
+.bottom_text_for_block_footer{
+	width: 100%;
+	height: 24%;
+	border-color: #71c626;
+	border-bottom-style: solid;
+	border-width: 0.2vw;
+	box-sizing: border-box;
+	color: #71c626;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 3vw;
+	font-weight: bold;
+	line-height: 1vw;
+}
+
+
+.h1_text_for_block_donate{
+	width: 40%;
+	height: 3.7vw;
+	border-color: red;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	color: black;
+	font-size: 3vw;
+	border-bottom-style: solid;
+	font-weight: bold;
+	margin: 0 auto;
+	border-color: black;
+	border-width: 0.2vw;
+}
+
+
+@media screen and (max-width: 700px){
+.block_glav_for_header{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	}
+	.block_for_header{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	padding: 1%;
+	display: block;
+}
+.img_for_header_ava{
+	width: 35%;
+	height: auto;
+	border-style: none;
+	border-color: white;
+	border-radius: 50%;
+	border-width: 1vw;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 5%;
+	
+}
+
+.img_for_header_ava .img_icon_for_header{
+	border-radius: 50%;
+}
+
+.text_for_header_icon_logo{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	position: relative;
+	top: 60%;
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	font-size: 6.6vw;
+	line-height: 3vw;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.button_for_header{
+	width: 100%;
+	display: block;
+}
+
+.button_in_for_header{
+	display: block;
+	margin-bottom: 4%;
+}
+
+.button_header{
+	width: 90%;
+	height: 14vw;
+	margin: 0 auto;
+	font-size: 10vw;
+	border-width: 1vw;
+	line-height: 12vw;
+}
+.button_header:nth-child(2){
+	margin-top: 4%;
+}
+.button_header:nth-child(3){
+	margin-top: 4%;
+	height: 25vw;
+}
+
+  /* Footer site */
+
+
+.block_footer{
+	height: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.block_footer_end{
+	width: 90%;
+	height: auto;
+}
+
+.img_for_footer_picture{
+	height: 50%;
+	width: 50%;
+}
+
+.right_block_for_picture_footer{
+	height: auto;
+	padding-left: 4%;
+}
+
+.top_text_for_block_footer{
+	height: auto;
+	font-size: 8vw;
+	line-height: 12vw;
+}
+
+.bottom_text_for_block_footer{
+	height: auto;
+	font-size: 10vw;
+	line-height: 10vw;
+}
+
+
+   /* Donate block adaptation */
+   
+   .block_donate{
+	   padding-top: 10%;
+	   padding-bottom: 10%;
+   }
+   
+   .h1_text_for_block_donate{
+	   width: 90%;
+	   height: auto;
+	   font-size: 8vw;
+	   padding-bottom: 5%;
+   }
+   
+   .block_donate_for_center{
+	   height: auto;
+   }
+   
+   .line_for_donate{
+	   height: auto;
+	   display: block;
+	   margin-left: 10%;
+   }
+   .domination_block{
+	   width: 90%;
+	   height: auto;
+	   margin-bottom: 10%;
+   }
+   .top_line_for_price_discount{
+	   height: auto;
+   }
+   
+   .left_mini_block_price{
+	   height: auto;
+	   font-size: 5vw;
+	   line-height:  5vw;
+   }
+   
+   .right_mini_block_discount{
+	   height: auto;
+	   font-size: 5vw;
+	   line-height: 12vw;
+   }
+   
+   .image_for_picture_donate{
+	   height: auto;
+   }
+   
+   .bottom_text_for_domination{
+	   height: auto;
+	   font-size: 8vw;
+	   padding-top: 5%;
+	   padding-bottom: 10%;
+	   margin-top: 3%;
+   }
+   
+   .img_for_footer_picture .img_icon_for_header{
+	   border-radius: 50%;
+	   background-color: white;
+   }
+   
+   
+   
+}
+
+

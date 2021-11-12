@@ -1,0 +1,1334 @@
+body{
+	background-color: #e5e9e9;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+a{
+	text-decoration: none;
+	width: auto;
+	height: auto;
+	color: white;
+}
+a:hover{
+	color: black;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+        /*Блок хедер*/
+		
+		
+.block_center{
+}	
+
+.block_glav_for_header{
+	width: 100%;
+	height: 14vw;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}	
+
+
+.block_for_header{
+	width: 90%;
+	height: 11vw;
+	border-color: white;
+	box-sizing: border-box;
+	padding: 1%;
+	display: flex;
+}
+
+
+
+.img_for_header_ava{
+	width: 8vw;
+	height: 8vw;
+	border-style: solid;
+	border-color: white;
+	border-radius: 50%;
+	border-width: 0.2vw;
+	overflow: hidden;
+	
+}
+
+.img_icon_for_header{
+	width: 100%;
+	height: auto;
+}
+
+.text_for_header_icon_logo{
+	width: 10%;
+	height: 3vw;
+	border-color: white;
+	box-sizing: border-box;
+	position: relative;
+	top: 60%;
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	font-size: 1.6vw;
+	line-height: 3vw;
+}
+
+.button_for_header{
+	width: 70%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	margin-left: auto;
+	display: flex;
+}
+
+.button_in_for_header{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.button_header{
+	width: auto;
+	height: auto;
+	border-style: solid;
+	border-color: white;
+	border-width: 0.2vw;
+	border-bottom-width: 0.6vw;
+	border-radius: 2vw;
+	font-family: 'Poiret One', cursive;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	font-size: 2.2vw;
+	line-height: 3.5vw;
+	padding-left: 2%;
+	padding-right: 2%;
+	transition-duration: 400ms;
+	transition-timing-function: ease;
+	
+	
+}
+
+.button_header:hover{
+	background-color: white;
+	color: black;
+	border-bottom-width: 0.2vw;
+	transform: translateY(0.4vw);
+}
+
+
+         /*Второй блок после хедера*/
+		
+.block_posle_header{
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 1%;
+}
+
+.center_block_one{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.block_img_left_one_main{
+	width: 41%;
+	height: auto;
+	border-color: black;
+	box-sizing: border-box;
+	margin-top: 1%;
+	
+}
+
+.img_one{
+	width: 100%;
+	height: auto;
+	border-radius: 10%;
+}
+
+.block_right_one_main{
+	width: 40%;
+	height: 23vw;
+	border-bottom-style: solid;
+	border-color: black;
+	margin-left: 11vw;
+	margin-top: 1%;
+}
+
+.text_for_one_img{
+	font-family: 'Poiret One', cursive;
+	font-size: 3vw;
+	line-height: 3.8vw;
+	box-sizing: border-box;
+	padding-top: 7%;
+	
+}
+
+.forever{
+	font-size: 6vw;
+}
+
+.dlya{
+	font-size: 4vw;
+	font-weight: bold;
+}
+.serverov{
+	font-size: 5vw;
+	font-weight: bold;
+	letter-spacing: 0.6vw;
+}
+
+.block_button_for_one{
+	width: 30%;
+	height: auto;
+	border-color: black;
+	box-sizing: border-box;
+	position: absolute;
+	right: 9vw;
+	top: 25vw;
+}
+
+.block_button_for_one .button_header{
+	width: 100%;
+	height: 4.4vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.2vw;
+	border-bottom-width: 0.6vw;
+	border-radius: 2vw;
+	font-family: 'Poiret One', cursive;
+	box-sizing: border-box;
+	color: black;
+	text-align: center;
+	font-size: 2.2vw;
+	line-height: 3.5vw;
+	padding-left: 2%;
+	padding-right: 2%;
+	transition-duration: 400ms;
+	transition-timing-function: ease;
+	background-color: white;
+}
+
+.block_button_for_one .button_header:hover{
+	background-color: black;
+	color: white;
+	border-bottom-width: 0.2vw;
+	transform: translateY(0.4vw);
+}
+
+          /*Три картинки и под ними текст*/
+		  
+.block_posle_one_for_main{
+	width: 100%;
+	height: 33vw;
+	background-color: black;
+	display: flex;
+	align-items: center;
+}		  
+
+.block_two_main_for_center{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	border-color: red;
+	display: flex;
+
+	
+	
+}
+
+
+
+.block_in_two_block{
+	width: 24%;
+	height: auto;
+	border-color:red;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 0 auto;
+	
+}
+
+.img_for_two_radius{
+	width: 10vw;
+	height: 10vw;
+	border-style: solid;
+	border-color: white;
+	border-radius: 50%;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.image_for_two_radius{
+	width: 100%;
+	height: auto;
+}
+
+.text_for_radius_img{
+	width: 100%;
+	height: auto;
+	color: white;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+.text_to_meni{
+	width: 100%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: white;
+	border-width: 0.2vw;
+	color: white;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 2vw;
+	box-sizing: border-box;
+	padding-bottom: 5%;
+	opacity: 0.7;
+}
+
+
+
+      /*Блок две картинки ссилки*/
+
+
+.block_dve_kartinki_ssilkoy{
+	width: 100%;
+	height: 50vw;
+	background-color: white;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.block_for_dve_ssilki{
+	display: flex;
+	width: 60%;
+	height: auto;
+	border-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+	
+}
+
+.block_one_for_kartinki{
+	width: 40%;
+	height: 37vw;
+	border-color: black;
+	border-bottom-style: solid;
+	border-width: 0.2vw;
+	box-sizing: border-box;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 1%;
+	
+	
+	
+}
+
+.image_kartinki_one{
+	width: 100%;
+	height: auto;
+	border-color: black;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-bottom-left-radius: 2vw;
+	border-bottom-right-radius: 2vw;
+	filter: brightness(40%);
+	
+	
+}
+
+.block_one_for_kartinki .button_header{
+	width: auto;
+	height: auto;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.2vw;
+	border-bottom-width: 0.6vw;
+	border-radius: 2vw;
+	font-family: 'Poiret One', cursive;
+	box-sizing: border-box;
+	color: black;
+	text-align: center;
+	font-size: 2.2vw;
+	line-height: 3.5vw;
+	padding-left: 2%;
+	padding-right: 2%;
+	transition-duration: 400ms;
+	transition-timing-function: ease;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	
+}
+
+.block_one_for_kartinki .button_header:hover{
+	background-color: black;
+	color: white;
+	border-bottom-width: 0.2vw;
+	transform: translateY(0.4vw);
+	
+}
+
+
+
+
+     /* Системние характеристики сайта */
+	 
+.three_block_for_charactiristik{
+	width:100%;
+	height: auto;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	padding-bottom: 5%;
+	padding-top: 1%;
+}	 
+
+.description_block{
+	width: 100%;
+	height: 7vw;
+	
+	background-color: black;
+	border-color: white;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 4vw;
+	line-height: 7vw;
+	border-width: 0.1vw;
+}
+
+
+.block_centrirovania{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+
+.top_block_for_three_block{
+	width: 70%;
+	height: auto;
+	border-color: blue;
+	box-sizing:border-box;
+	display: flex;
+	justify-content: space-around;
+}
+
+.block_mini_charakteristika{
+	width:  30%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.img_for_three_block_charakteristika{
+	width: 12vw;
+	height: 12vw;
+	border-style: solid;
+	border-color: white;
+	border-radius: 50%;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin-left: 20%;
+}
+
+.text_opisania_charakteristik{
+	width: 100%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: white;
+	border-width: 0.1vw;
+	box-sizing: border-box;
+	color: white;
+	margin-top: 3%;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	padding-bottom: 5%;
+	
+}
+
+.ssd{
+	font-size: 2.7vw;
+	font-weight: bold;
+}
+
+.bottom_block_for_three_block{
+	width: 70%;
+	height: auto;
+	border-color: blue;
+	box-sizing:border-box;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 3%;
+}
+
+       /* О СЕРВЕРЕ */
+.block_o_proekte{
+	width: 100%;
+	height: 50vw;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}	   
+
+.block_o_proekte_center{
+	width: 100%;
+	height: auto;
+	border-color: red;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.proekt_in_privilegii{
+	width: 30%;
+	height: 37vw;
+	background-color: black;
+	border-radius: 2vw;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding-top: 3%;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-color: #bbbebf;
+	border-width: 0.6vw;
+}
+
+.glav_text_for_privilegii{
+	width: 100%;
+	height: auto;
+	border-bottom-style: solid;
+	border-color: #bbbebf;
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 4vw;
+	padding-top: 3%;
+	padding-left: 3%;
+	line-height: 4.2vw;
+
+}
+
+.mini_text_for_privilegii{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	color: #cfcfcf;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.9vw;
+	line-height: 4vw;
+	margin-top: 6%;
+	letter-spacing: 0.2vw;
+	padding-left: 3%;
+
+}
+
+           /*Форма отправки коментария*/
+		   
+.forma_otpravki{
+	width: 100%;
+	height: 25vw;
+	background-color: black;
+	display: flex;
+	align-items: center;
+}		   
+
+.center_forma_otpravki{
+	width: 100vw;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+
+.vasi_idei_for_forma_otpravki{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Poiret One', cursive;
+	font-size: 2.5vw;
+}
+
+.foram_otpravki{
+	width: 50%;
+	height: 8vw;
+	margin-left: 25%;
+	border-bottom-style: solid;
+	border-color:rgb(174, 175, 176);
+	border-radius: 1vw;
+	box-sizing: border-box;
+	padding: 1%;
+	resize: none;
+	outline: none;
+	border-width: 0.5vw;
+	font-weight: bold;
+	font-size: 1.2vw;
+	margin-top: 1%;
+}
+
+.block_for_knopka{
+	width: 100%;
+	height: auto;
+	border-color: red;
+	box-sizing:border-box;
+	margin-top: 1%;
+}
+
+.button_for_otpravki{
+	width: 10%;
+	height: 3vw;
+	border-style: solid;
+	border-color: white;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	line-height: 2.5vw;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 1.4vw;
+	border-radius: 1vw;
+	margin-left: 63%;
+	transition-duration: 700ms;
+}
+
+.button_for_otpravki:hover{
+	background-color: white;
+	color: black;
+	transform: scale(0.9);
+}
+
+
+            /*    Блок серверов     */
+			
+.block_serverov{
+	width: 100%;
+	height: 50vw;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}			
+
+.block_serverov_center{
+	border-color: red;
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.block_linear_serverov{
+	width: 100%;
+	height: auto;
+	border-color: blue;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 4%;
+}
+
+.mini_block_server_one{
+	width: 30%;
+	height: 15.5vw;
+	border-color: orange;
+	box-sizing: border-box;
+}
+
+.text_name_on_server{
+	width: 68%;
+	height: 3.4vw;
+	background-color: black;
+	color: white;
+	box-sizing: border-box;
+	font-family: 'Poiret One', cursive;
+	font-size: 3vw;
+	padding-left: 4%;
+	margin-bottom: 1%;
+	
+}
+
+.server_mini_block{
+	width: 100%;
+	height: 11.2vw;
+	border-color:  yellow;
+	box-sizing: border-box;
+	display: flex;
+	background-color: black;
+	border-radius: 1vw;
+	
+}
+
+.img_for_server_one_left{
+	width: 37%;
+	height: 10.2vw;
+	border-color: white;
+	box-sizing: border-box;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 2%;
+}
+
+.right_mini_block_for_static{
+	width: 60%;
+	height: 11vw;
+	border-color: red;
+	box-sizing: border-box;
+	
+}
+
+.right_mini_block_for_top_text_online{
+	width: 100%;
+	height: 3.6vw;
+	border-color: white;
+	box-sizing: border-box;
+	color: #2ec66f;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 3vw;
+}
+
+.right_mini_block_for_top_text_players{
+	width: 100%;
+	height: 3.6vw;
+	border-color: white;
+	box-sizing: border-box;
+	color: #a7a8a7;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 2.8vw;
+	padding-left: 5%;
+}
+
+.right_mini_block_for_top_text_ip{
+	width: 90%;
+	height: 2.3vw;
+	border-color: white;
+	border-bottom-style: solid;
+	border-width: 0.1vw;
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 1.6vw;
+	padding-left: 2%;
+}
+
+        /*Три полоски*/
+.three_strips{
+	width: 100%;
+	height: 35vw;
+	background-color: black;
+	display: flex;
+	align-items: center;
+}		
+
+.three_strips_center{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	padding: 1%;
+	display: block;
+	justify-content: center;
+}
+
+.one_block_for_strips{
+	width: 55%;
+	height: 3.7vw;
+	border-style: solid;
+	border-color: white;
+	box-sizing: border-box;
+	display: flex;
+	padding: 0.5vw;
+	border-radius: 1vw;
+	margin: 0 auto;
+	
+}
+
+.one_block_for_strips:nth-child(2){
+	margin-top: 2%;
+}
+.one_block_for_strips:nth-child(3){
+	margin-top: 2%;
+}
+.one_block_for_strips:nth-child(4){
+	margin-top: 2%;
+}
+.one_block_for_strips:nth-child(5){
+	margin-top: 2%;
+}
+
+.small_strips{
+	width: 1vw;
+	height: 100%;
+	background-color: #79e41a;
+	box-sizing: border-box;
+	border-radius: 0.3vw;
+	margin-right: 2%;
+}
+
+.text_for_small_strips{
+	width: 100%;
+	height: 100%;
+	border-color: #2ec66f;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.8vw;
+	letter-spacing: 0.5vw;
+	line-height: 2.5vw;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+   /*Подвал сайта*/
+
+
+.block_footer{
+	width: 100%;
+	height: 23vw;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+
+.center_block_for_footer{
+	width: 100%;
+	height: auto;
+	border-color: red;
+	box-sizing: border-box;
+	
+}
+
+.block_footer_end{
+	width: 50%;
+	height: 12vw;
+	border-color: blue;
+	box-sizing: border-box;
+	margin: 0 auto;
+	display: flex;
+}
+
+.img_for_footer_picture{
+	width: 23.5%;
+	height: 11.5vw;
+	background-color: black;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.right_block_for_picture_footer{
+	width: 75%;
+	height: 100%;
+	border-color: brown;
+	box-sizing:border-box;
+	margin-left: 1%;
+}
+
+.top_text_for_block_footer{
+	width: 100%;
+	height: 50%;
+	border-color: red;
+	box-sizing: border-box;
+	color: #b0aeae;
+	font-family: 'Poiret One', cursive;
+	font-size: 2.5vw;
+	line-height: 7vw;
+}
+
+.bottom_text_for_block_footer{
+	width: 100%;
+	height: 24%;
+	border-color: #71c626;
+	border-bottom-style: solid;
+	border-width: 0.2vw;
+	box-sizing: border-box;
+	color: #71c626;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 3vw;
+	font-weight: bold;
+	line-height: 1vw;
+}
+
+.button_in_for_header .button_header:nth-child(3){
+	background-color: white;
+	color: black;
+	border-bottom-width: 0.2vw;
+}
+
+.block_button_for_one a{
+	color: black;
+	transition-duration: 500ms;
+}
+
+.block_button_for_one:hover a{
+	color: white;
+}
+
+
+@media screen and (max-width: 700px){
+	.block_glav_for_header{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	}
+	.block_for_header{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	padding: 1%;
+	display: block;
+}
+.img_for_header_ava{
+	width: 35%;
+	height: auto;
+	border-style: none;
+	border-color: white;
+	border-radius: 50%;
+	border-width: 1vw;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 5%;
+	
+}
+
+.img_for_header_ava .img_icon_for_header{
+	border-radius: 50%;
+}
+
+.text_for_header_icon_logo{
+	width: 100%;
+	height: auto;
+	border-color: white;
+	box-sizing: border-box;
+	position: relative;
+	top: 60%;
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	font-size: 6.6vw;
+	line-height: 3vw;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.button_for_header{
+	width: 100%;
+	display: block;
+}
+
+.button_in_for_header{
+	display: block;
+	margin-bottom: 4%;
+}
+
+.button_header{
+	width: 90%;
+	height: 14vw;
+	margin: 0 auto;
+	font-size: 10vw;
+	border-width: 1vw;
+	line-height: 12vw;
+}
+.button_header:nth-child(2){
+	margin-top: 4%;
+}
+.button_header:nth-child(3){
+	margin-top: 4%;
+	height: 25vw;
+}
+    /* Second block for adaptability */
+
+.center_block_one{
+	display: block;
+}
+.block_img_left_one_main{
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+.block_right_one_main{
+	width: 95%;
+	height: auto;
+	margin-left: 0;
+	margin: 0 auto;
+	margin-bottom: 23%;
+}
+
+.text_for_one_img{
+	font-size: 10vw;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+.forever{
+	font-size: 15vw;
+	margin-bottom: 5%;
+	display: block;
+}
+
+.dlya{
+	font-size: 15vw;
+	display: block;
+	margin-top: 10%;
+	margin-bottom: 8%;
+}
+
+.block_button_for_one{
+	right: 0;
+	left: 5vw;
+	top: 130vw;
+	width: 90%;
+}
+
+.block_button_for_one .button_header {
+	font-size: 10vw;
+	height: 15vw;
+	line-height: 14vw;
+}
+
+    /* Third block for adaptability */
+	
+.block_posle_one_for_main{
+	height: auto;
+	padding-top: 4%;
+	padding-bottom: 5%;
+	display: block;
+}	
+
+.block_two_main_for_center{
+	display: block;
+}
+
+.block_in_two_block{
+	width: 90%;
+	padding-top: 5%;
+}
+
+.img_for_two_radius{
+	width: 40vw;
+	height: 40vw;
+	margin-bottom: 5%;
+}
+
+.text_for_radius_img{
+	font-size: 14vw;
+}
+
+.text_to_meni{
+	font-size: 6vw;
+}
+
+  /*Четверттый адаптивный блок*/
+
+.block_dve_kartinki_ssilkoy{
+	display: block;
+	height: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}	
+
+.block_for_dve_ssilki{
+	width: 100%;
+	display: block;
+}
+
+.block_one_for_kartinki{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 5%;
+}
+
+.block_one_for_kartinki .button_header{
+	font-size: 10vw;
+	height: 15vw;
+	line-height: 15vw;
+}
+
+  /* Fifth block adaptability */
+
+.description_block{
+	font-size: 10vw;
+	height: 30vw;
+	line-height: 13vw;
+	padding-top: 1%;
+}
+
+.three_block_for_charactiristik{
+	display: flex;
+}
+
+.block_centrirovania{
+	display: block;
+	
+}
+
+.top_block_for_three_block{
+	display: block;
+	width: 95%;
+}
+
+.block_mini_charakteristika{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 5%;
+}
+
+
+.img_for_three_block_charakteristika{
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	border-style: none;
+}
+
+.img_for_three_block_charakteristika .image_for_two_radius{
+	border-radius: 50%;
+}
+
+
+.text_opisania_charakteristik{
+	font-size: 10vw;
+}
+.ssd{
+	font-size:  10vw;
+}
+
+.bottom_block_for_three_block{
+	width: 100%;
+	display: block;
+}
+
+
+    /* Sixth block adaptability */
+     
+.block_o_proekte{
+	height: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+	 
+	 
+.block_o_proekte_center{
+	display: block;
+}	 
+
+.proekt_in_privilegii{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.glav_text_for_privilegii{
+	font-size: 11vw;
+	line-height: 11vw;
+	padding-bottom: 3%;
+}
+
+.mini_text_for_privilegii{
+	font-size: 6.5vw;
+	line-height: 10vw;
+}
+
+.block_o_proekte_center .proekt_in_privilegii:nth-child(1){
+	margin-bottom: 8%;
+}
+
+    /* Seventh block of adaptability */
+
+
+.forma_otpravki{
+	height: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.center_forma_otpravki{
+	display: block;
+}
+
+.vasi_idei_for_forma_otpravki{
+	font-size: 9vw;
+}
+
+.foram_otpravki{
+	width: 90%;
+	margin-left: 0;
+	height: 80vw;
+	margin-left: 5%;
+	font-size: 5vw;
+}
+
+.button_for_otpravki{
+	width: 60%;
+	margin-left: 0;
+	height: auto;
+	font-size: 10vw;
+	line-height: 17vw;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+    /* Eighth block of adaptability */
+	
+.block_serverov{
+	height: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}	
+
+.block_serverov_center{
+	
+}
+
+.block_linear_serverov{
+	display: block;
+}
+
+.mini_block_server_one{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 5%;
+}
+
+.text_name_on_server{
+	height: auto;
+	font-size: 10vw;
+}
+
+.server_mini_block{
+	height: auto;
+}
+
+.img_for_server_one_left{
+	height: auto;
+}
+
+.right_mini_block_for_static{
+	height: auto;
+}
+
+.right_mini_block_for_top_text_online{
+	height: auto;
+	font-size: 10vw;
+}
+
+.right_mini_block_for_top_text_players{
+	height: auto;
+	font-size: 8vw;
+}
+
+.right_mini_block_for_top_text_ip{
+	height: auto;
+	font-size: 5vw;
+	padding-top: 4%;
+}
+
+  /* Nine block adaptability */
+  
+  
+.three_strips{
+	height: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}  
+
+.one_block_for_strips{
+	width: 90%;
+	height: auto;
+}
+
+.small_strips{
+	width: 5vw;
+	height: auto;
+	border-style: solid;
+	border-color: #79e41a;
+	border-radius: 1vw;
+}
+
+.text_for_small_strips{
+	font-size: 5vw;
+	line-height: 6vw;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+  /* Footer site */
+
+
+.block_footer{
+	height: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.block_footer_end{
+	width: 90%;
+	height: auto;
+}
+
+.img_for_footer_picture{
+	height: 50%;
+	width: 50%;
+}
+
+.right_block_for_picture_footer{
+	height: auto;
+	padding-left: 4%;
+}
+
+.top_text_for_block_footer{
+	height: auto;
+	font-size: 8vw;
+	line-height: 12vw;
+}
+
+.bottom_text_for_block_footer{
+	height: auto;
+	font-size: 10vw;
+	line-height: 10vw;
+}
+
+		
+}
